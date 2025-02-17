@@ -18,7 +18,7 @@
     pip install discord.py yt_dlp
     pip install PyNaCl
     sudo apt install ffmpeg
-    windows에서 실행하는 경우
+    windows에서 실행하는 경우 main_windows.py의 41번 줄의 경로를 ffmpeg.exe파일 위치로 수정
 
 ## 코드 실행
 
