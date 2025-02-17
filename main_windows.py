@@ -35,7 +35,10 @@ intents.message_content = True
 
 # CPU-bound 작업에 적합한 프로세스 풀 생성 (원하는 코어 수를 max_workers로 지정 가능)
 process_executor = concurrent.futures.ProcessPoolExecutor(max_workers=4)
-API_KEY = ''
+API_KEY = 'YOUR API KEY'
+
+# ffmpeg 실행 파일 경로
+ffmpeg_executable = r"C:\ffmpeg\bin\ffmpeg.exe"
 
 def make_pickleable(obj):
     """
@@ -70,7 +73,6 @@ async def get_title(url):
         data = data['entries'][0]
     return data.get('title', '제목 없음')
 
-ffmpeg_executable = r"C:\ffmpeg\bin\ffmpeg.exe"
 class YTDLSource(discord.PCMVolumeTransformer):
     def __init__(self, source, *, data, volume=0.5):
         super().__init__(source, volume)
