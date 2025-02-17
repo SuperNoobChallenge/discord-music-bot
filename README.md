@@ -18,6 +18,7 @@
     pip install discord.py yt_dlp
     pip install PyNaCl
     sudo apt install ffmpeg
+    windows에서 실행하는 경우
 
 ## 코드 실행
 
