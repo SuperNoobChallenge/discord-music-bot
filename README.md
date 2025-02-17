@@ -14,6 +14,7 @@
 ### 라이브러리 설치
 
     pip install discord.py yt_dlp
+    pip install PyNaCl
     sudo apt install ffmpeg
 
 ## 코드 실행
