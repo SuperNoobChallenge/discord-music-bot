@@ -35,6 +35,9 @@
     sudo apt install ffmpeg
     windows에서 실행하는 경우 main_windows.py의 41번 줄의 경로를 ffmpeg.exe파일 위치로 수정
 
+## 인터넷 업로드 속도가 느린 환경이라면 
+    16번 줄의 'format': 'bestaudio/best', 을 'format': 'bestaudio[abr<=96]', 으로 수정
+
 ## 코드 실행
 
     # 디스코드 봇 생성
