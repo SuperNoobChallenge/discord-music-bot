@@ -15,6 +15,8 @@
 
 !leave - 봇이 음성 채널에서 퇴장합니다.
 
+# 서버 열기 귀찮으면 코랩에서 실행 가능
+https://colab.research.google.com/drive/1X7XmM2_11FSm5VyuZOZbK2WRCRANLMQi?usp=sharing#scrollTo=9SpbXeZkvpJE
 
 
 # 라즈베리파이 기준이기 때문에 원도우에서는 추가적인 설정이 필요할 수 있음
